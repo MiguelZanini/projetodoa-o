@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Doação de alimentos - Receba coins</title>
+<link rel="styleSheet" href="style.css">
+
+</head>
+<body>
+	<header>
+		<h1>Doação de alimentos</h1>
+		<p>Faça sua doação de alimentos e receba coins em troca.</p>
+	</header>
+
+	<form>
+		<label for="nome">Nome:</label>
+		<input type="text" id="nome" name="nome"><br>
+
+		<label for="endereco">Endereço:</label>
+		<input type="text" id="endereco" name="endereco"><br>
+
+		<label for="telefone">Telefone:</label>
+		<input type="text" id="telefone" name="telefone"><br>
+
+		<label for="email">E-mail:</label>
+		<input type="text" id="email" name="email"><br>
+
+		<label for="quantidade">Quantidade de alimentos:</label>
+		<select id="quantidade" name="quantidade">
+			<option value="1">1kg</option>
+			<option value="2">2kg</option>
+			<option value="5">5kg</option>
+		</select><br>
+
+		<label for="coins">Quantidade de coins:</label>
+		<select id="coins" name="coins">
+			<option value="10">10 coins</option>
+			<option value="20">20 coins</option>
+			<option value="50">50 coins</option>
+		</select><br>
+
+		<input type="submit" value="Doar">
+	</form>
+
+	<footer>
+		<p>Termos e condições: Os coins recebidos são válidos por 30 dias a partir da data de doação. Os coins podem ser usados para adquirir produtos em nossa loja virtual.</p>
+	</footer>
+</body>
+</html>
